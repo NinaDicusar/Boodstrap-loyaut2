@@ -1,0 +1,108 @@
+body{
+    min-height: 3000px;
+}
+img{
+    border: 5px solid #999;
+    
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+}
+#news-feed .carousel-indicators{
+    width: 500px;
+    height: 500px;
+ 
+    border: 0.1px solid #f0e4e4;
+   /* background-color: red;*/
+    margin: 0;
+    left: auto;
+    right: -100%;
+    position: absolute;
+    z-index: auto;
+    top: 0;
+    right:-100 ;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 100%;
+   
+   
+  
+    
+    
+
+}
+#news-feed .carousel-indicators button{
+    text-indent: 0;
+    width:3em;
+    height: 3em;
+
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-right: 15px;
+     }
+#news-feed .carousel-indicators button:hover{
+        border: 2px dashed #222;
+    
+    } 
+
+#news-feed .carousel-indicators button:nth-child(1){
+    transform: translateX(-43px)
+    translateY(15px);
+ 
+}
+#news-feed .carousel-indicators button:nth-child(2) {
+    transform: translateX(15px)
+    translateY(-6px);
+  }
+#news-feed .carousel-indicators button:nth-child(3) {
+    transform: translateX(38px)
+    translateY(-7px);
+  }
+ #news-feed .carousel-indicators button:nth-child(4) {
+    transform: translateX(21px)
+    translateY(-11px);
+} 
+#news-feed .carousel-indicators button:nth-child(5) {
+    transform: translateX(-32px)
+    translateY(-24px);
+}
+
+#news-feed .carousel-indicators button:hover{
+    border: 1px dashed #222;
+
+}
+#news-feed .carousel-inner{
+    overflow: visible;
+}
+#news-feed .carousel-caption{
+   background-color: white;
+    left: 200%;
+    right: -300%;
+    top: 0;
+    text-align: left;
+  
+}
+#news-feed .carousel-caption p{
+    color:#222;
+    font-size:120%;
+}
+#news-feed .carousel-caption h5{
+color: #222;
+}
+.pricing{
+    background-color: #EEF;
+}
+.pricing .card{
+    position: relative;
+    top:-1em;
+    left: 2em;
+
+}
+.pricing h1{
+    font-weight:bold;
+}
